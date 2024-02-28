@@ -50,7 +50,7 @@ class Program
                 gånger++;
             }
         }
-        if (gånger > 2 || x == 4)
+        if (gånger >= 2 || x == 4)
         {
             Console.WriteLine(x + " är INTE ett primtal");
         }
