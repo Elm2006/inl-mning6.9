@@ -30,7 +30,7 @@ class Program
     }
     static int Primtal2(int svar)
     {
-        int gånger = 0;
+        int gånger = 1;
         for (int i = svar - 1; i > 0; i--)
         {
             if (i % 2 != 0)
